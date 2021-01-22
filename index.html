@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <style> .mappa-responsive {
-      position: relative;
-      padding-bottom: 80%;
-      padding-top: 0;
-      height: 0;
-      overflow: hidden;
-      }
-      .mappa-responsive iframe {
-      position: absolute;
-      top:40;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      }
+   <style> 
+.mappa-responsive {
+position: relative;
+padding-bottom: 73.9%;
+padding-top: 0;
+height: 0;
+overflow: hidden;
+}
+.mappa-responsive iframe {
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.mySlides {display: none}
     </style>
   </head>
 <body>
@@ -29,22 +31,67 @@
     <div class="w3-bar w3-black w3-card">
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="#comefunziona" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COME FUNZIONA</a>
       <a href="#mappa" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MAPPA</a>
-      <a href="#scheda" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SCHEDA DI RILEVAZIONE</a>
       <a href="#contatti" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATATTI E SEGNALAZIONI</a>
       </div>
   </div>
   <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="#home" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#comefunziona" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">COME FUNZIONA</a>
   <a href="#mappa" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MAPPA</a>
-  <a href="#scheda" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SCHEDA DI RILEVAZIONE</a>
   <a href="#contatti" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATTI E SEGNALAZIONI</a>
 </div>
+<!-- Contenuto della pagina -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<!-- Slideshow di immagini -->
+<div id = "home" class="mySlides w3-display-container w3-center">
+  <img src="https://c1.wallpaperflare.com/preview/125/963/779/torre-termoli-italy.jpg" style="width:100%">
+  <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>Mappa siti di Termoli</h3>
+    <p><b>Benvenuto nel nostro sito</b></p>   
+  </div>
+</div>
+<div class="mySlides w3-display-container w3-center">
+  <img src="https://c0.wallpaperflare.com/preview/946/730/395/italy-termoli.jpg" style="width:100%">
+  <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>Mappa siti di Termoli</h3>
+    <p><b>Benvenuto nel nostro sito</b></p>    
+  </div>
+</div>
+<div class="mySlides w3-display-container w3-center">
+  <img src="https://c1.wallpaperflare.com/preview/734/820/919/termoli-molise-italy-houses.jpg" style="width:100%">
+  <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <h3>Mappa siti di Termoli</h3>
+    <p><b>Benvenuto nel nostro sito</b></p>    
+  </div>
+</div> 
+<!-- The Band Section -->
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="comefunziona">
+  <h2 class="w3-wide">Come funziona?</h2>
+  <p class="w3-opacity"><i>Ecco come funziona il nostro sito</i></p>
+  <p class="w3-justify">Il sito consta di quattro parti principali.La prima è la home del sito, dove è illustrato il nome del sito ed è presente uno slideshow con delle fotografie della nostra città.Nella seconda parte c'è questa sezione dedicata allo spiegare il funzionamento del sito stesso.Nella terza parte è presente una mappa di MyMaps, dove giornalmente inseriamo i nuovi siti e tutte le informazione annesse.Nella quarta ed ultima parte del sito, ossia la sezione "Contattaci", sarai in grado di contattarci e segnalare l'eventuale presenza di un nuovo sito, oppure per chiedere di apportare modifiche ad uno già esistente</p>
+  <div class="w3-row w3-padding-32">
+    <div class="w3-third">
+      <p>Name</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Name</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Name</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+    </div>
+  </div>
+</div>
+
       <div class="mappa-responsive" id="mappa">
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UbxYWA9kY-qLh2NLAkkU4tLlmSzA61zj" width="1280" height="720"></iframe>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UbxYWA9kY-qLh2NLAkkU4tLlmSzA61zj" width="600" height="450"></iframe>
       </div>
-       
+      
  <!-- Sezione contattaci -->
  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contatti">
   <h2 class="w3-wide w3-center">CONTATTACI</h2>
@@ -76,6 +123,21 @@
 
 
 <script>
+  // Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
   // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
   var x = document.getElementById("navDemo");
